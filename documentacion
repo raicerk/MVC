@@ -4,7 +4,8 @@
 mixed query(string query, array parametros, boolean retorno);
 
 strig query: corresponde a la consulta a realizar
-array parametros: corresponde a los parametros que utilizara la query para su ejecucion, indicando el tipo de datos y los valores de las variables
+array parametros: corresponde a los parametros que utilizara la query para su ejecucion, indicando el tipo de 
+		  datos y los valores de las variables
 boolean retorno: true indica retorno de datos y false retorna boleano de ejecucion de query
 
 
