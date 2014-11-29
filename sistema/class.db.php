@@ -32,7 +32,7 @@ class Database{
 
     public function query(){
            
-        $mysqli = self::->conexion();
+        $mysqli = self::conexion();
         $stmt = $mysqli->prepare($this->sql) or die ("error al preparar la query!");
         
         if (is_array($this->parametros)) {
