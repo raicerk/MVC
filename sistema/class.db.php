@@ -31,7 +31,7 @@ class Database{
     }
 
     public function query(){
-           
+        $results = array();    
         $mysqli = self::conexion();
         $stmt = $mysqli->prepare($this->sql) or die ("error al preparar la query!");
         
